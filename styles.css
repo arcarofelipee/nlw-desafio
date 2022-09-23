@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(./assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    background-color: #121214;
+}
+
+body * {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 160%;
+}
+
+header {
+    padding-top: 32px;
+    height: 152px;
+}
+
+header div {
+    width: 120px;
+    margin: auto;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+
+    border-radius: 50%;
+    display: flex;
+    padding: 4px;
+
+    transition: transform .3s;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+main {
+    max-width: 540px;
+    width: 90%;
+    margin: 32px auto;
+    display: grid;
+    gap: 16px;
+}
+
+/* Movies section style */
+.movie-section {
+    color: white;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+.movie-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+
+.movie-div {
+    background-color: #262629;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+.movie-div p {
+    color: #C1C1C1;
+    letter-spacing: -0.18px;
+}
+
+.movie-list img {
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid #555555;
+    transition: transform .3s;
+}
+
+.movie-list img:hover {
+    transform: scale(1.1);
+}
+
+/* Series section style */
+.serie-section {
+    color: white;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    padding-top: 4px;
+    border-radius: 10px;
+}
+
+.serie-list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.serie-div {
+    background-color: #262629;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+.serie-div p {
+    color: #C1C1C1;
+    letter-spacing: -0.18px;
+}
+
+.serie-list img {
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid #555555;
+    transition: transform .3s;
+}
+
+.serie-list img:hover {
+    transform: scale(1.1);
+}
